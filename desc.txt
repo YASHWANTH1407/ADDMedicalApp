@@ -1,0 +1,57 @@
+
+                              AUTOMATIC DRUG DISPENSER
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+Develop a web system that enables the doctor to prescribe medicines on an app. This app 
+then converts the prescription to a QR code. The patient then uses the automatic drug 
+dispenser to get the drugs based on the QR code.
+
+Need to integrate with an internally developed basic vending machine for this project.
+
+NOTE: you should make an APPLICATION that links with a WEBSITE too.
+-----------------------------------------------------------------------------------------
+                                 HOW DO WE DO IT?
+-----------------------------------------------------------------------------------------
+WORKFLOW OF OUR APPLICATION:
+
+1. the medical prescription is given in form of a document with strings.('having names of meds in it')
+2.We convert the document into qr code using some tools.
+3.Our dispenser reads the qr code and gets the document.
+4.then reads the document and fetches the name of drugs.
+5.then those drugs are placed for order including with their price.
+6.showing buy option or not.
+
+-----------------------------------------------------------------------------------------
+                            INTERFACE OF APPLICATION
+-----------------------------------------------------------------------------------------
+1.HEADING:medical prescription
+2.its like a list
+3.while typing the name of the drug it should show list of drugs matching with the name given by user(with pharma brand)
+
+-----------------------------------------------------------------------------------------
+                     HOW TO MAKE IT WORK AT USER ENDPOINTS
+-----------------------------------------------------------------------------------------
+1. We'll show the type of treatments
+2. Then specify the doctors for that treatmeant (Available doctors at that time,bc it makes implementing video call easily)
+3. Payment is done then the patient is allowed to join call for consultation
+4. we can set PIN for location (PIN for DOCS AND PATIENTS)
+5. If serious the doctor can invite patient to clinic.(he tells that in the fucking call)
+
+
+------------------------------------------------------------------------------------------
+                       USER ENDPOINTS DONE NOW WHAT TO DO?
+------------------------------------------------------------------------------------------
+-Make previous consultations (static)
+-should add U and D operations to my server API (update and delete)
+-and routes to get doctor information so that i can represent them in available doctors.
+
+-SHOULD I WORK ON WEBSOCKETS BC I WANT TO SHOW ONLINE DOCTORS AVAILABLE AT THAT TIME ?
+-AND IF I INCLUDE WEBSOCKETS WHAT SHOULD I DO ON DOCTOR SIDE HOW TO SET THEIR STATUS, SHOULD I KEEP IT MANUAL???
+
+
+APPOINTMENT BOOKING CHAT BOT ANTA?chudali
+
+
+
+
+

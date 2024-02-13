@@ -1,0 +1,64 @@
+/* AboutUs.css */
+
+/* Style for the container */
+.about {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading style */
+  h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph style */
+  p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  .aboutUs-body {
+    margin: 0;
+    padding: 5rem;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .aboutUs-container {
+  
+    margin: 0 auto;
+    padding: 4rem;
+    background-color: #d9f2ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+  }
+  
+  .aboutUs-h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .aboutUs-p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    padding: 0.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .aboutUs-p:last-child {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  .aboutUs-p:nth-last-child(2) {
+    font-weight: bold;
+  }
+
+.aboutUs-h2{
+  text-align: center;
+}

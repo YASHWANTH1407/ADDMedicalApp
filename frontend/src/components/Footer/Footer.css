@@ -1,0 +1,94 @@
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .footer-section {
+    background-color: #dcb5ff;;
+    padding: 10rem;
+    animation: slideInFromRight 1s ease-in-out; /* Apply the animation */
+    margin:0 auto;
+  }
+
+.footer-section {
+    background-color: #d9f2ff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .ft-info {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .ft-info-p1 {
+    text-align: center;
+  }
+  
+  .ft-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* .ft-sign { */
+    /* Add styles for the span element if needed */
+  /* } */
+  
+  .ft-description {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .ft-list {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .ft-list-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .ft-list-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ft-list-items li {
+    margin-bottom: 10px;
+  }
+  
+  .ft-list-items a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .ft-list-items a:hover {
+    text-decoration: underline;
+  }
+  
+  .ft-copyright {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #a5bdfd;
+    font-size: 14px;
+    color: black;
+  }
+    

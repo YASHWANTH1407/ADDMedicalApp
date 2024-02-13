@@ -1,0 +1,116 @@
+/* Reset and general styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.why--container{
+    background-color: #ffdddd; /* Light red background color */
+    border: 1px solid #f44336; /* Red border color */
+    color: #f44336; /* Red text color */
+    padding: 10px; /* Padding for the content */
+    margin-top: 10px; /* Top margin to separate from other elements */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.container{
+    display: flex; /* Use flexbox to align items horizontally */
+  align-items: center;
+}
+/* Form box styling */
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styling */
+.input-field {
+    background: #eaeaea;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* Input and select styling */
+input,
+select {
+    width: calc(100% - 20px); /* Adjusted width to consider margins */
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+}
+
+/* Icon styling */
+.input-field i {
+    margin: 0 10px;
+    color: #999999;
+}
+
+/* Button styling */
+.btn-field {
+    width: 100%;
+    margin-top:50px; /* Add margin-top to create space between the button and the form */
+    
+}
+
+.btn-field button {
+    width: 100%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 2s;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+} /* Add margin-top to create space between the button and the select field */
+
+
+
+.btn-field button:hover {
+    background: #2c0070;
+}
+
+/* Additional styles for the dropdown */
+.input-field select {
+    width: 100%;
+    height: 40px; /* Set the height to match other input fields */
+    background: #eaeaea;
+    border: 0;
+    outline: 0;
+    padding: 8px 15px; /* Adjust padding for better appearance */
+    border-radius: 3px;
+    margin: 0;
+}
+
+.chikitsa-logo{
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* To maintain aspect ratio */
+    margin-right: 10px; 
+}
+#prof{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #eaeaea;
+}
+#prof option{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #eaeaea;
+}
+#prof option:hover{
+    background-color: ;
+}
